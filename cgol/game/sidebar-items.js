@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Game","An instance of Conway's Game of Life."]],"type":[["Col","An iterator over the cells in a specific column."],["ColMut","A mutable iterator over the cells in a specific column."],["Row","An iterator over the cells in a specific row."],["RowMut","A mutable iterator over the cells in a specific row."]]});
