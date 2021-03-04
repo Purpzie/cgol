@@ -1,0 +1,7 @@
+[alias]
+c = "check --all-features"
+t = "test --all-features"
+f = "fmt"
+cl = "clippy --all-features"
+d = "doc --all-features --no-deps --open"
+b = "bench --all-features"

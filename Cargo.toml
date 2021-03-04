@@ -1,0 +1,26 @@
+[package]
+name = "cgol"
+version = "0.1.0"
+edition = "2018"
+include = ["src/", "README.md", "COPYRIGHT", "LICENSE-*"]
+
+authors = ["Purpzie"]
+description = "An extremely fast implementation of Conway's Game of Life."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Purpzie/cgol"
+readme = "README.md"
+keywords = ["conway", "game", "simulation"]
+categories = ["simulation", "games", "no-std"]
+
+[dependencies]
+rand = { version = "0.8.3", optional = true }
+
+[features]
+use-rand = ["rand"]
+
+[dev-dependencies]
+rand = "0.8.3"
+
+[profile.release]
+lto = true
+codegen-units = 1

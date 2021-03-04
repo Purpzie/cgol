@@ -1,0 +1,7 @@
+Except as otherwise noted (below and/or in individual files), cgol is
+licensed under the Apache License, Version 2.0 <LICENSE-APACHE> or
+<https://www.apache.org/licenses/LICENSE-2.0>, or the MIT license
+<LICENSE-MIT> or <https://opensource.org/licenses/MIT>, at your option.
+
+The two licenses above were chosen for maximum compatibility with the Rust ecosystem:
+<https://rust-lang.github.io/api-guidelines/necessities#c-permissive>
